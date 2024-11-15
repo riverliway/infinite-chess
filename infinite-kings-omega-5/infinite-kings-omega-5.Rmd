@@ -1,0 +1,72 @@
+---
+title: A Position in Infinite Chess using Infinite Kings with Game Value $\omega^5$
+author: 
+   - River Schieberl, riverliway@gmail.com
+output: 
+  pdf_document:
+    extra_dependencies: ["chessboard"]
+---
+
+## Abstract
+
+blah bloop
+
+## Introduction
+
+beep
+
+## Base Position
+
+\chessboard[maxfield=m15,
+            border=false,
+            showmover=false,
+            hmarginwidth=1em,
+            hlabelwidth=1em,
+            setblack={
+              Pa7,Pb6,Pc5,Pd6,Pe7,Pf8,Pf10,Pg11,Ph12,Pi13,Pj14,Pk13,Pl12,
+              Pl10,Pk9,Pj8,Pi7,Ph6,Pg5,Pf4,Pe3,Pf2,Pg1,
+              Ph9,Pi10,Pj11,
+              Bg7,Bh8,Bi9,Bj10,Bk11,
+              Bg9,Bh10,Bi11,Bj12
+            },
+            addwhite={
+              Pa6,Pb5,Pc4,Pd5,Pe6,Pf7,Pf9,Pg10,Ph11,Pi12,Pj13,Pk12,Pl11,
+              Pl9,Pk8,Pj7,Pi6,Ph5,Pg4,Pf3,Pe2,Pf1,
+              Pj2,Pk3,Pl4
+            }]
+
+\chessboard[maxfield=m15,
+            border=false,
+            showmover=false,
+            hmarginwidth=1em,
+            hlabelwidth=1em,
+            setblack={
+              Pa7,Pb6,Pc5,Pd6,Pe7,Pf8,Pf10,Pg11,Ph12,Pj14,Pk13,Pl12,Pi15,Pg13,Pf14,Pe15,
+              Pl10,Pk9,Pj8,Pi7,Ph6,Pg5,Pf4,Pe3,Pf2,Pg1,
+              Ph9,Pi10,Pj11,
+              Bg7,Bh8,Bi9,Bj10,Bk11,
+              Bg9,Bh10,Bi11,Pj12
+            },
+            addwhite={
+              Pa6,Pb5,Pc4,Pd5,Pe6,Pf7,Pf9,Pg10,Ph11,Pj13,Pk12,Pl11,Pi14,Ph15,Pg12,Pf13,Pe14,Pd15,
+              Pl9,Pk8,Pj7,Pi6,Ph5,Pg4,Pf3,Pe2,Pf1,
+              Pj2,Pk3,Pl4
+            }]
+            
+\chessboard[maxfield=m15,
+            border=false,
+            showmover=false,
+            hmarginwidth=1em,
+            hlabelwidth=1em,
+            setblack={
+              Pa7,Pb6,Pc5,Pd6,Pe7,Pf8,Pf10,Pg11,Ph12,Pj14,Pk13,Pl12,Pi15,Pg13,Pf14,Pe15,
+              Pl10,Pk9,Pj8,Pi7,Ph6,Pg5,Pf4,Pe3,Pf2,Pg1,
+              Ph9,Pi10,Pj11,
+              Bk11,
+              Bg9,Bh10,Bi11,Pj12
+            },
+            addwhite={
+              Pa6,Pb5,Pc4,Pd5,Pe6,Pf7,Pf9,Pg10,Ph11,Pj13,Pk12,Pl11,Pi14,Ph15,Pg12,Pf13,Pe14,Pd15,
+              Pl9,Pk8,Pj7,Pi6,Ph5,Pg4,Pf3,Pe2,Pf1,
+              Pj3,Pk4,Pl5
+            }]
